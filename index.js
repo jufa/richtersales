@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
   response.send('Hello RichterSales!');
   // get orders:
     urderUrl = 'https://eb269bfed4883478fcf75acac385014d:b4baf3405ca909e683fb80892511a914@jufa-development-shop.myshopify.com/admin/orders.json';
-    retrieveOrders(orderUrl);
+    //app.retrieveOrders(orderUrl);
 });
 
 app.listen(app.get('port'), function() {
