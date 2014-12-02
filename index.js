@@ -18,7 +18,7 @@ app.listen(app.get('port'), function() {
 });
 
 
-app.retrieveOrders(url){
+app.retrieveOrders = function(url){
     request({
         url: url,
         json: true
@@ -27,5 +27,5 @@ app.retrieveOrders(url){
         if (!error && response.statusCode === 200) {
             response.send('Orders Retrieved:\n---\n'+body) // Print the json response
         }
-    })
+    });
 }
