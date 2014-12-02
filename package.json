@@ -7,7 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "~4.9.x"
+    "express": "~4.9.x",
+    "request-local": "^0.1.9"
   },
   "engines": {
     "node": "0.10.x"
@@ -21,5 +22,8 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "request-local": "^0.1.9"
+  }
 }
