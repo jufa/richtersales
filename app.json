@@ -1,7 +1,7 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
+  "name": "richter-sales",
+  "description": "A func visualoizer for Shopify Store Activity",
   "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
+  "logo": "",
+  "keywords": ["shopify", "demo"]
 }

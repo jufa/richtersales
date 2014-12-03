@@ -1,0 +1,33 @@
+{
+  "name": "richter-sales",
+  "main": "server.js",
+  "version": "0.0.0",
+  "homepage": "-",
+  "authors": [
+    "Jeremy Kuzub <jeremy@jufaintermedia.com>"
+  ],
+  "description": "Visualizer for Shopify store activity via Shopify API",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Shopify",
+    "API",
+    "visualizer"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.5",
+    "d3": "~3.4.13",
+    "nvd3": "~1.1.15-beta"
+  }
+}
