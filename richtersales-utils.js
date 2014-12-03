@@ -23,7 +23,7 @@ var getLineItems = function(orderJson) {
     var orderHtml = '<ul>';
     var i;
     for (i = 0; i < orderJson.line_items.length; i++) {
-        orderHtml += '<li>' + orderJson.line_items[i].name + '[' + orderJson.line_items[i].fulfillable_quantity + ']' + '</li>';
+        orderHtml += '<li>' + orderJson.line_items[i].name + '[' + orderJson.line_items[i].quantity + ']' + '</li>';
     }
     orderHtml+='</ul>';
     return orderHtml;
