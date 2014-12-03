@@ -1,6 +1,5 @@
 var express = require('express');
-var request = require('request');
-var rsutils = require('richtersales-utils');
+var rsutils = require('./richtersales-utils');
 
 var app = express();
 
