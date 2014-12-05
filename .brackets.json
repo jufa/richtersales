@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/projects/richtersales/richtersales/richtersales-viz.js",
+        "C:/projects/richtersales/richtersales/bower_components/nvd3/nv.d3.min.js",
+        "C:/projects/richtersales/richtersales/richtersales-utils.js",
+        "C:/projects/richtersales/richtersales/public/libs/jquery/src/outro.js"
+    ]
+}

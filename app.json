@@ -1,6 +1,6 @@
 {
   "name": "richter-sales",
-  "description": "A func visualoizer for Shopify Store Activity",
+  "description": "A demo viz for Shopify demo store activity",
   "repository": "https://github.com/heroku/node-js-getting-started",
   "logo": "",
   "keywords": ["shopify", "demo"]

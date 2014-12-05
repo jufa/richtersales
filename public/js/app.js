@@ -1,0 +1,1 @@
+angular.module('RichtersalesApp', ['ngRoute', 'appRoutes', 'MainController', 'SalesController', 'SalesService']);

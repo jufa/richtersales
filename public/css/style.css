@@ -1,0 +1,14 @@
+body {
+    background-color:#666;
+    color:#fff;
+}
+
+.chart div {
+  font: 20px sans-serif;
+  background-color: #6dd;
+  text-align: right;
+  padding: 0;
+  margin: 3px auto;
+  color: white;
+
+}

@@ -1,3 +1,4 @@
+//server side
 var request = require('request');
 
 var processOrderResponse = function (orderRequest, orderRepsonse, dataError, dataResponse, dataBody) {
@@ -29,16 +30,34 @@ var getLineItems = function(orderJson) {
     return orderHtml;
 };
 
+//returns out Json data as parsed from shopify web service
+var parseJson = function(orderJson) {
+    var jsonString = '';
+    
+    if (orderJson === undefined) return jsonString;
+    var i;
+    for (i = 0; i < orderJson.line_items.length; i++) {
+        //;
+    }
+    jsonString = orderJson;
+    return jsonString;
+};
+
 module.exports = {
     retrieveOrders:function (orderRequest, orderResponse, dataUrl) {
-        console.log('app.retrieveOrders...');
         request({
             url: dataUrl,
             json: true
         }, function (dataError, dataResponse, dataBody) {
             if (!dataError && dataResponse.statusCode === 200) {
-                processOrderResponse(orderRequest, orderResponse, dataError, dataResponse, dataBody);
+                //processOrderResponse(orderRequest, orderResponse, dataError, dataResponse, dataBody);
+                orderResponse.setHeader('Content-Type', 'application/json');
+               
+               // orderResponse.send(parseJson(dataBody).stringify({ a: 1 }));
+                 orderResponse.send(dataBody);
             }
         });
     }
 };
+
+
