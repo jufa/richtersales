@@ -1,0 +1,10 @@
+<div ng-controller = "StatsBigSellerController">
+    <div class = "top-sellers" ng-repeat="item in topSellers track by $index">
+        <div class="image"><img src="{{item.image}}"/></div>
+        <div class="caption">
+            <span class = "qty">{{item.quantity}}</span>
+            {{item.name}}
+            <br/> <span class = "product-id">{{item.product_id}}</span>
+        </div>
+    </div>
+</div>

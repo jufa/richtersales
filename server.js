@@ -16,6 +16,7 @@ var rsutils = require('./richtersales-utils');
 //var db = require('./config/db');
 
 var dataSourceJson = 'https://eb269bfed4883478fcf75acac385014d:b4baf3405ca909e683fb80892511a914@jufa-development-shop.myshopify.com/admin/orders.json';
+var productDataJson = 'https://eb269bfed4883478fcf75acac385014d:b4baf3405ca909e683fb80892511a914@jufa-development-shop.myshopify.com/admin/products/';
 
 // set our port
 var port = process.env.PORT || 8080; 
@@ -59,17 +60,24 @@ var router = express.Router();
 // home page route (http://localhost:8080)
 // about page route (http://localhost:8080/about)
 router.get('/api', function(req, res) {
-    res.send('im the root API!');	
+    res.send('Richtersales API root. <a href = "http://en.wikipedia.org/wiki/RSDL" >RSDL</a> ');	
 });
 
-app.get('/api/sales', function(request, response) {
+router.get('/api/sales', function(request, response) {
   // get orders:
     var orderUrl = dataSourceJson;
     var orderObject = rsutils.retrieveOrders(request, response, orderUrl);    
 });
 
+router.get('/api/product/:product_id', function(request, response) {
+  // get product details:
+  var productUrl = productDataJson + request.params.product_id + '.json';
+  var productDetails = rsutils.getProductDetails(request, response, productUrl);
+});
+
+
 router.get('/api/**', function(req, res) {
-    res.send('im the API!');	
+    res.send('Richtersales API root. <a href = "http://en.wikipedia.org/wiki/RSDL" >RSDL</a> ');	
 });
 
 

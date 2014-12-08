@@ -11,6 +11,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             templateUrl: 'views/sales.html',
             controller: ''
         })    
+        .when('/pulse', {
+            templateUrl: 'views/pulse.html',
+            controller: ''
+        })    
         .otherwise({
             redirectTo: '/'
         });

@@ -1,6 +1,8 @@
 body {
-    background-color:#666;
-    color:#fff;
+    background-color:#eee;
+    color:#999;
+    /*font-family: 'Archivo Narrow', sans-serif;*/
+    font-family: 'Oswald', sans-serif;
 }
 
 .chart div {
@@ -12,3 +14,48 @@ body {
   color: white;
 
 }
+
+.top-sellers {
+    width:100%;
+    float:left;
+    margin: 30px auto;
+    padding:0;
+    clear:both;
+}
+
+.top-sellers img {
+    margin: 0;
+    float:left;
+    width: 300px;
+    height:300px;
+}
+
+.top-sellers .caption {
+    float:left;
+    font-size:40px;
+    width:60%;
+    padding:0;
+    margin:0;
+    line-height:1em;
+    
+}
+
+.top-sellers .qty {
+    font-size:160px;
+    color: #888;
+    float:left;
+    display:block;
+    border-right:20px solid #ddd;
+    padding: 0 30px 0 0;
+    margin: 0 20px 0 0;
+    min-width:40%;
+    text-align:right;
+    line-height: 0.9em;
+    height:300px;
+}
+    
+.top-sellers .product-id {
+    font-size:20px;
+    color:#333;
+}
+    
