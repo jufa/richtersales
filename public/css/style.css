@@ -5,6 +5,10 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.navbar {
+    font-size:1.5em;
+}
+
 .chart div {
   font: 20px sans-serif;
   background-color: #6dd;
@@ -57,5 +61,29 @@ body {
 .top-sellers .product-id {
     font-size:20px;
     color:#333;
+}
+
+@media (max-width: 767px) {
+    .top-sellers img {
+        width: 180px;
+        height:180px;
+    }
+    
+    .top-sellers .qty {
+        font-size:80px;
+        padding: 0 10px 0 0;
+        margin: 0 10px 0 0;
+        height:180px;
+    }
+    
+    .top-sellers .caption {
+        font-size:20px;
+        width:50%;
+    }
+    
+    .top-sellers .product-id {
+        font-size:12px;
+    }
+
 }
     
