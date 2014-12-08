@@ -1,23 +1,61 @@
+/**
+ *
+ * App level interface 
+ * 
+ *
+ */
+
 body {
     background-color:#eee;
     color:#999;
     /*font-family: 'Archivo Narrow', sans-serif;*/
     font-family: 'Oswald', sans-serif;
+    padding-top:70px; /*to clear Bootstrap fixed header*/
 }
 
+/* Bootstrap 3 overrides */
 .navbar {
     font-size:1.5em;
 }
 
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+
+
+
+/**
+ *
+ * richtersals barchart interface 
+ * sales.html
+ *
+ */
+
+
 .chart div {
-  font: 20px sans-serif;
+  font: 30px;
   background-color: #6dd;
   text-align: right;
-  padding: 0;
+  padding: 0 10px 0 0;
   margin: 3px auto;
   color: white;
 
 }
+
+
+
+
+
+/**
+ *
+ * Top Sellers interface 
+ * pulse.html
+ *
+ */
 
 .top-sellers {
     width:100%;
@@ -63,9 +101,14 @@ body {
     color:#333;
 }
 
+
+
+/* MAX WIDTH 767 */
+
+
 @media (max-width: 767px) {
     .top-sellers img {
-        width: 180px;
+        width: 40%;
         height:180px;
     }
     
@@ -73,12 +116,19 @@ body {
         font-size:80px;
         padding: 0 10px 0 0;
         margin: 0 10px 0 0;
-        height:180px;
+        border-right: 8px;
+        height:1.6em;
+        width:100%;
+        text-align:left;
+        border-right:none;
+        border-bottom: 8px solid #ddd;
     }
     
     .top-sellers .caption {
         font-size:20px;
         width:50%;
+        height:1em;
+        margin-left:10px;
     }
     
     .top-sellers .product-id {
