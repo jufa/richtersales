@@ -47,8 +47,8 @@
             </div>
             <div class="navbar-collapse collapse"> 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/sales">Check Sales</a></li>
-                    <li><a href="/pulse">Sales Pulse</a></li>
+                    <li><a href="/sales">Sales-mometer</a></li>
+                    <li><a href="/pulse">Top Sellers</a></li>
                 </ul>
             </div>
         </div>
@@ -66,6 +66,17 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    
+    <script>
+    
+    <!--
+        //help out a Bootstrap 3 feature where menu doesn't auto collapse on item selection
+        $('.nav a').on('click', function(){
+            $(".navbar-toggle").click() //bootstrap 3.x by Richard
+        });
+    -->
+    </script>
     
 </body>
 </html>

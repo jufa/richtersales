@@ -16,7 +16,7 @@ angular.module('SalesController', []).controller('SalesController', function($sc
                   .data($scope.salesData)
                   .enter().append("div")
                   .style("width", function(d) { return d * 20 + "px"; })
-                  .text(function(d) { return d; });    
+                  .text(function(d) { return d>3?d+' items':d; });    
           },
           function(errorPayload) {
               $log.error('failure loading sales data', errorPayload);

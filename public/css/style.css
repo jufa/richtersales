@@ -23,7 +23,12 @@ body {
   width: 100%;
 }
 
-
+h3 {
+  padding: 0 20px 10px 20px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.3em;
+}
 
 
 
@@ -39,10 +44,12 @@ body {
 .chart div {
   font: 30px;
   background-color: #6dd;
-  text-align: right;
-  padding: 0 10px 0 0;
+  text-align: left;
+  padding: 0 10px;
   margin: 3px auto;
   color: white;
+  border-left: 3px solid #3bb;
+  border-right: 3px solid #3bb;
 
 }
 

@@ -1,4 +1,9 @@
 <div ng-controller = "StatsBigSellerController">
+    
+    <h3>
+        This demo interface provides an at-a-glane feed of top sellers in your store.
+    </h3>
+      
     <div class = "top-sellers" ng-repeat="item in topSellers track by $index">
         <div class="image"><img src="{{item.image}}"/></div>
         <div class="caption">
