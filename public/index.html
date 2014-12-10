@@ -72,9 +72,12 @@
     
     <!--
         //help out a Bootstrap 3 feature where menu doesn't auto collapse on item selection
-        $('.nav a').on('click', function(){
-            $(".navbar-toggle").click() //bootstrap 3.x by Richard
-        });
+        //see: https://github.com/twbs/bootstrap/issues/12852
+       $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+            $(this).collapse('hide');
+        }
+});
     -->
     </script>
     
