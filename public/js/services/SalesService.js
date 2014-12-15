@@ -75,10 +75,13 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
         var orderObject = data;
         var order;  
         var chartData = [];
-
+		var chartOrder = {}; //{qty,date}
         for (var i = 0; i < orderObject.orders.length; i++){
             order = orderObject.orders[i];
-            chartData.push(getLineItems(order));
+            chartData.push({
+				qty: getLineItems(order),
+				date: order.created_at
+			})
         }
 
         return chartData;
@@ -117,6 +120,38 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
         return deferred.promise; 
         
     };
+
+
+    /**
+     * go get data from our webservice and process the result.
+     * Proper separation of concerns requires we sepearate data procesing from the Controller module
+     *
+     * @returns array of int needed for the charting
+     *
+     */
+    var getJsonDataDummy = function() {
+        
+        
+        //$log.info('SalesService::getJsonData');
+        
+        var deferred = $q.defer();
+        
+        //var apiPromise = $http.get('/api/sales');
+       
+        deferred.resolve({
+				data: [
+					{qty:1},
+					{qty:2},
+					{qty:3},
+					{qty:4},
+					]
+			});
+       
+        return deferred.promise; 
+        
+    };
+
+
     
     
     
@@ -244,9 +279,7 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
     };
     
                                                           
-    
-    
-    
+
     
     //Public interface:
     return {     
@@ -263,7 +296,7 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
         },
         getData:function(){
             //$log.info('SalesService::getData');
-            var chartDataPromise = getJsonData();
+            var chartDataPromise = getJsonData();//getJsonData();
             return chartDataPromise;
         }
     };

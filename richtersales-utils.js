@@ -3,6 +3,7 @@ var request = require('request');
 
 
 module.exports = {
+
     getProductDetails:function (orderRequest, orderResponse, dataUrl) {
         request({
             url: dataUrl,
