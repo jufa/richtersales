@@ -83,7 +83,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">template: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   pulse.html</tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngControllers</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   StatsBigSellerController.js</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="101.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngServices</tspan><tspan x="0" y="116.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   ProductService.js</tspan><tspan x="0" y="132.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   SalesService.js</tspan></text>
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">template: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   pulse.html</tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">ngControllers</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   StatsBigSellerController.js</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="101.7" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">ngServices</tspan><tspan x="0" y="116.9" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   ProductService.js</tspan><tspan x="0" y="132.1" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   SalesService.js</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 391.45,223.35) ">
@@ -91,7 +91,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="118" height="29.15" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_2)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">Top Sellers</tspan></text>
+<text clip-path="url(#Mask_Mask_2)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="16" fill="#999999" xml:space="preserve">Top Sellers</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 353.45,0.5) ">
@@ -105,7 +105,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_3)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">template: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   sales.html</tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngControllers</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   SalesController.js</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="101.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngServices</tspan><tspan x="0" y="116.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   SalesService.js</tspan></text>
+<text clip-path="url(#Mask_Mask_3)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">template: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   sales.html</tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">ngControllers</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   SalesController.js</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="101.7" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">ngServices</tspan><tspan x="0" y="116.9" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   SalesService.js</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 391.45,38.35) ">
@@ -113,7 +113,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="118" height="29.15" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_4)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">Sales</tspan></text>
+<text clip-path="url(#Mask_Mask_4)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="16" fill="#999999" xml:space="preserve">Sales</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 2.1323089599609375, -177.95,-437.05) ">
@@ -127,7 +127,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_5)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">platform: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   Heroku/nodejs/expressjs </tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">services:</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /api/sales</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /api/product/[product_id]</tspan></text>
+<text clip-path="url(#Mask_Mask_5)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">platform: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   Heroku/nodejs/expressjs </tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">services:</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   /api/sales</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   /api/product/[product_id]</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 210.5,48.85) ">
@@ -135,7 +135,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="118" height="48.2" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_6)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">RichterSales</tspan></text>
+<text clip-path="url(#Mask_Mask_6)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="16" fill="#999999" xml:space="preserve">RichterSales</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -149,7 +149,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_7)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">platform: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   Shopify Store Private API </tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">services:</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /admin/orders.json</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /admin/products/[product_id]</tspan></text>
+<text clip-path="url(#Mask_Mask_7)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">platform: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   Shopify Store Private API </tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">services:</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   /admin/orders.json</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="10" fill="#999999" xml:space="preserve">   /admin/products/[product_id]</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 35.5,47.35) ">
@@ -157,7 +157,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="118" height="29.15" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_8)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">Shopify</tspan></text>
+<text clip-path="url(#Mask_Mask_8)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="16" fill="#999999" xml:space="preserve">Shopify</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -171,7 +171,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="118" height="48.2" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_9)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#33bbbb" xml:space="preserve">Client-Side</tspan></text>
+<text clip-path="url(#Mask_Mask_9)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="16" fill="#33bbbb" xml:space="preserve">Client-Side</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 205.95,17.9) ">
@@ -179,7 +179,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="118" height="48.2" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_10)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#33bbbb" xml:space="preserve">Server-Side</tspan></text>
+<text clip-path="url(#Mask_Mask_10)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="16" fill="#33bbbb" xml:space="preserve">Server-Side</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 30.95,17.9) ">
@@ -187,7 +187,7 @@ L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5
 <rect x="-2" y="-2" width="144.55" height="44.1" fill="#FFFFFF" stroke="none"/>
 </clipPath>
 
-<text clip-path="url(#Mask_Mask_11)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#33bbbb" xml:space="preserve">External Resources</tspan></text>
+<text clip-path="url(#Mask_Mask_11)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Oswald" font-weight="normal" font-size="16" fill="#33bbbb" xml:space="preserve">External Resources</tspan></text>
 </g>
 
 <g transform="matrix( 1, 0, 0, 1, 175.45,39.5) ">
