@@ -14,7 +14,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
         .when('/pulse', {
             templateUrl: 'views/pulse.html',
             controller: ''
-        })    
+        })
+        .when('/block', {
+            templateUrl: 'views/block.html',
+            controller: ''
+        }) 
         .otherwise({
             redirectTo: '/'
         });

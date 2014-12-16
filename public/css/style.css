@@ -146,7 +146,17 @@ h4 {
     color:#333;
 }
 
+/**
+ *
+ * About interface 
+ * block.html
+ *
+ */
 
+.diagram {
+    width:100%;
+    max-width:1024px;
+}
 
 /* MAX WIDTH 767 */
 
