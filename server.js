@@ -39,6 +39,16 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(methodOverride('X-HTTP-Method-Override')); 
 
+//provide route middleware for robots.txt as per http://stackoverflow.com/questions/15119760
+app.use(function (req, res, next) {
+    if ('/robots.txt' == req.url) {
+        res.type('text/plain')
+        res.send("User-agent: *\nDisallow: /");
+    } else {
+        next();
+    }
+});
+
 // set the static files location /public/img will be /img for users
 app.use(express.static(__dirname + '/public')); 
 
@@ -80,6 +90,9 @@ router.get('/api/**', function(req, res) {
     res.send('Richtersales API root. <a href = "http://en.wikipedia.org/wiki/RSDL" >RSDL</a> ');	
 });
 
+router.get('/robots.txt', function(req, res) {
+    res.send('');	
+});
 
 router.get('/**', function(req, res) {
    res.sendfile('./public/index.html');	

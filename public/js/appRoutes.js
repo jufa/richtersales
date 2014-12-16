@@ -18,7 +18,7 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
         .when('/block', {
             templateUrl: 'views/block.html',
             controller: ''
-        }) 
+        })
         .otherwise({
             redirectTo: '/'
         });
