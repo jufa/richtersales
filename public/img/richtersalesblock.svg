@@ -1,0 +1,204 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="400px" viewBox="0 0 550 400">
+<defs>
+<g id="Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 522.45 39.5
+L 384.45 39.5 384.45 201.5 522.45 201.5 522.45 39.5 Z"/>
+</g>
+
+<g id="Layer0_3_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 169 39
+L 31 39 31 201 169 201 169 39 Z"/>
+</g>
+
+<g id="Layer0_6_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 384.45 224
+L 384.45 386 522.45 386 522.45 224 384.45 224 Z"/>
+</g>
+
+<g id="Layer0_9_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 169 201
+L 169 39 31 39 31 201 169 201 Z"/>
+</g>
+
+<g id="Layer0_12_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 198.45 111
+L 175.05 111 175.05 95.35 156.95 119.5 175.05 143.65 175.05 129 198.45 129 198.45 143.65 216.55 119.5 198.45 95.35 198.45 111 Z"/>
+</g>
+
+<g id="Layer0_16_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 198.45 129
+L 198.45 143.65 216.55 119.5 198.45 95.35 198.45 111 175.05 111 175.05 95.35 156.95 119.5 175.05 143.65 175.05 129 198.45 129 Z"/>
+</g>
+
+<g id="Layer0_17_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 373.9 120.85
+L 373.9 136.5 350.5 136.5 350.5 120.85 332.4 145 350.5 169.15 350.5 154.5 373.9 154.5 373.9 169.15 392 145 373.9 120.85 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 384.45 39.5
+L 522.45 39.5 522.45 201.5 384.45 201.5 384.45 39.5 Z"/>
+
+<path id="Layer0_3_1_STROKES" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 31 39
+L 169 39 169 201 31 201 31 39 Z"/>
+
+<path id="Layer0_6_1_STROKES" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 384.45 224
+L 522.45 224 522.45 386 384.45 386 384.45 224 Z"/>
+
+<path id="Layer0_9_1_STROKES" stroke="#ffffff" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 31 39
+L 169 39 169 201 31 201 31 39 Z"/>
+
+<path id="Layer0_12_1_STROKES" stroke="#999999" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 216.55 119.5
+L 198.45 143.65 198.45 129 175.05 129 175.05 143.65 156.95 119.5 175.05 95.35 175.05 111 198.45 111 198.45 95.35 216.55 119.5 Z"/>
+
+<path id="Layer0_16_1_STROKES" stroke="#999999" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 216.55 119.5
+L 198.45 143.65 198.45 129 175.05 129 175.05 143.65 156.95 119.5 175.05 95.35 175.05 111 198.45 111 198.45 95.35 216.55 119.5 Z"/>
+
+<path id="Layer0_17_1_STROKES" stroke="#999999" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 392 145
+L 373.9 169.15 373.9 154.5 350.5 154.5 350.5 169.15 332.4 145 350.5 120.85 350.5 136.5 373.9 136.5 373.9 120.85 392 145 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,184.5) ">
+<use xlink:href="#Layer0_0_FILL"/>
+
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 400.45,245.85) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">template: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   pulse.html</tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngControllers</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   StatsBigSellerController.js</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="101.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngServices</tspan><tspan x="0" y="116.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   ProductService.js</tspan><tspan x="0" y="132.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   SalesService.js</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 391.45,223.35) ">
+<clipPath id="Mask_Mask_2">
+<rect x="-2" y="-2" width="118" height="29.15" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_2)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">Top Sellers</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 353.45,0.5) ">
+<use xlink:href="#Layer0_3_FILL"/>
+
+<use xlink:href="#Layer0_3_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 400.45,60.85) ">
+<clipPath id="Mask_Mask_3">
+<rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_3)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">template: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   sales.html</tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngControllers</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   SalesController.js</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="101.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">ngServices</tspan><tspan x="0" y="116.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   SalesService.js</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 391.45,38.35) ">
+<clipPath id="Mask_Mask_4">
+<rect x="-2" y="-2" width="118" height="29.15" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_4)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">Sales</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 2.1323089599609375, -177.95,-437.05) ">
+<use xlink:href="#Layer0_6_FILL"/>
+
+<use xlink:href="#Layer0_6_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 219.5,70.35) ">
+<clipPath id="Mask_Mask_5">
+<rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_5)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">platform: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   Heroku/nodejs/expressjs </tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">services:</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /api/sales</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /api/product/[product_id]</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 210.5,48.85) ">
+<clipPath id="Mask_Mask_6">
+<rect x="-2" y="-2" width="118" height="48.2" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_6)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">RichterSales</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_9_FILL"/>
+
+<use xlink:href="#Layer0_9_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 44.5,69.85) ">
+<clipPath id="Mask_Mask_7">
+<rect x="-2" y="-2" width="128" height="154" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_7)" writing-mode="lr"><tspan x="0" y="10.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">platform: </tspan><tspan x="0" y="25.7" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   Shopify Store Private API </tspan><tspan x="0" y="40.9" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve"></tspan><tspan x="0" y="56.1" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">services:</tspan><tspan x="0" y="71.3" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /admin/orders.json</tspan><tspan x="0" y="86.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="10" fill="#999999" xml:space="preserve">   /admin/products/[product_id]</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 35.5,47.35) ">
+<clipPath id="Mask_Mask_8">
+<rect x="-2" y="-2" width="118" height="29.15" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_8)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#999999" xml:space="preserve">Shopify</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_12_FILL"/>
+
+<use xlink:href="#Layer0_12_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 385.95,17.9) ">
+<clipPath id="Mask_Mask_9">
+<rect x="-2" y="-2" width="118" height="48.2" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_9)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#33bbbb" xml:space="preserve">Client-Side</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 205.95,17.9) ">
+<clipPath id="Mask_Mask_10">
+<rect x="-2" y="-2" width="118" height="48.2" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_10)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#33bbbb" xml:space="preserve">Server-Side</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 30.95,17.9) ">
+<clipPath id="Mask_Mask_11">
+<rect x="-2" y="-2" width="144.55" height="44.1" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_11)" writing-mode="lr"><tspan x="0" y="16.75" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="16" fill="#33bbbb" xml:space="preserve">External Resources</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 175.45,39.5) ">
+<use xlink:href="#Layer0_16_FILL"/>
+
+<use xlink:href="#Layer0_16_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,199.5) ">
+<use xlink:href="#Layer0_17_FILL"/>
+
+<use xlink:href="#Layer0_17_1_STROKES"/>
+</g>
+</svg>
