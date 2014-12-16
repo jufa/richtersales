@@ -3,7 +3,7 @@
 <defs>
     
 <style type="text/css">
-    @import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+    @import url(//fonts.googleapis.com/css?family=Oswald:400,300);
     text {
         font-family: Oswald, 'Arial Narrow', Helvetica, Arial, Sans-Serif;
     }
