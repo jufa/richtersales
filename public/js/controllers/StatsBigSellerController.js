@@ -4,6 +4,8 @@ angular.module('StatsBigSellerController', []).controller('StatsBigSellerControl
     var promise = SalesService.getTopSellers();
     var topSellersData;
     var max = 10;
+    var startTime = new Date().getTime();
+
     
      promise.then(
           function(payload) { 
@@ -45,6 +47,7 @@ angular.module('StatsBigSellerController', []).controller('StatsBigSellerControl
                 i++;
             });
             //$log.info('combined result?:',tmp);
+            $scope.queryTime = new Date().getTime() - startTime;
             $scope.topSellers = tmp; 
         });
 });

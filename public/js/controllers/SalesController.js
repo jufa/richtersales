@@ -6,10 +6,12 @@ angular.module('SalesController', []).controller('SalesController', function($sc
         return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
     }
     
+    
+    var startTime = new Date().getTime();
     var promise = SalesService.getData();
      promise.then(
           function(payload) { 
-
+              $scope.queryTime = new Date().getTime() - startTime ;
               $scope.salesData = payload.data;
 
 			  //parse date data so we hide sales on duplicate days

@@ -3,6 +3,8 @@
     <h3>
         This demo interface provides an at-a-glane feed of top sellers in your store.
     </h3>
+    
+    <h3>[Query Time: {{queryTime}}msec]</h3>
       
     <div class = "top-sellers" ng-repeat="item in topSellers track by $index">
         <div class="image"><img src="{{item.image}}"/></div>
