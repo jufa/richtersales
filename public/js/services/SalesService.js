@@ -128,10 +128,7 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
      *
      */
     var getJsonData = function() {
-        
-        
-        //$log.info('SalesService::getJsonData');
-        
+                
         var deferred = $q.defer();
         
         var apiPromise = $http.get('/api/sales');
@@ -179,10 +176,7 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
     };
 
 
-    
-    
-    
-    
+
     
     /**
      * helper function to process a single order line item from the api:
@@ -234,11 +228,7 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
                  topSellersData.push( {product_id: productId, quantity:qty} );
             }   
         }
-        
-       
-        
-        //return totalQuantity;// orderJson.line_items.length;  
-        
+                
     };
     
     
@@ -317,12 +307,10 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
             //TODO: Move this to a MongooseDB query on the server side, so we are not always 
             //making this a big API call
             //returns: promise.data = array of {product_id:'', quanity:''}
-            //$log.info('SalesService::getTopSellers');
             var promise = getTopSellersData();
             return promise;        
         },
         getData:function(){
-            //$log.info('SalesService::getData');
             var chartDataPromise = getJsonData();//getJsonData();
             return chartDataPromise;
         }

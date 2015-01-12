@@ -45,7 +45,6 @@ angular.module('PromoController', []).controller('PromoController', function($sc
   ];
 
 $scope.promoFormSubmit = function() {
-    $log.info($scope.promoPlatform, $scope.promoName, new Date($scope.promoDateString), $scope.promoDetails);
     //send it to the promo webservice via promoController:
     var promo = {};
     promo.name = $scope.promoName;
@@ -56,12 +55,10 @@ $scope.promoFormSubmit = function() {
      var promise = PromoService.addPromo(promo);
      promise.then(
           function(payload) { 
-              $log.info('PromoService returned success',payload);
               $scope.status = "Promo Added!";
               $scope.alertClass = "alert-success";
           },
           function(errorPayload) {
-              $log.error('failure loading sales data', errorPayload);
               $scope.status = "There was a problem saving this promo!";
               $scope.alertClass = "alert-danger";
           });

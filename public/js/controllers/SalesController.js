@@ -52,7 +52,7 @@ angular.module('SalesController', []).controller('SalesController', function($sc
             if(d.qty !== undefined) {
                 return d.qty * 20 + "px"; 
             } else if(d.name !== undefined){
-                return '100%';
+                return '400px';
             }
 
           })
@@ -60,7 +60,7 @@ angular.module('SalesController', []).controller('SalesController', function($sc
             if(d.qty !== undefined) {
                 return d.qty>3?d.qty+' items':d.qty; 
             } else if (d.name !== undefined) {
-                return '( '+d.platform+' )'+d.name+' ';
+                return d.platform+'  :  '+d.name+' ';
             }
           });
 
