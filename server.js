@@ -26,7 +26,6 @@ var port = process.env.PORT || 8080;
 //app.set('port', port);
 
 // connect to our mongoDB database 
-// (uncomment after you enter in your own credentials in config/db.js)
 //mongoose.connect('mongodb://localhost/richtersales'); //todo put this in config/db 
 mongoose.connect(mongolabUri); //todo put this in config/db 
 
