@@ -1,0 +1,1 @@
+var mongolabUri = "mongodb://heroku_app32157115:6i4850couahu6vk5vhhj3oi9m8@ds031651.mongolab.com:31651/heroku_app32157115";

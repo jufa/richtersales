@@ -6,3 +6,4 @@ var mongoose = require('mongoose');
 module.exports = mongoose.model('SampleModel', {
 	name : {type : String, default: ''}
 });// grab the mongoose module
+

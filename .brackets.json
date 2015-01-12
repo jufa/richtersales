@@ -7,6 +7,9 @@
         "C:/projects/richtersales/richtersales/server.js",
         "C:/projects/richtersales/richtersales/public/libs/jquery/src/serialize.js",
         "C:/projects/richtersales/richtersales/public/libs/angularjs-nvd3-directives/src/directives/outro.js",
-        "C:/projects/richtersales/richtersales/public/js/services/SalesService.js"
+        "C:/projects/richtersales/richtersales/public/js/services/SalesService.js",
+        "C:/projects/richtersales/richtersales/public/libs/jquery/src/attributes/support.js",
+        "C:/projects/richtersales/richtersales/public/libs/jquery/src/data/var/data_priv.js",
+        "C:/projects/richtersales/richtersales/public/js/controllers/PromoController.js"
     ]
 }

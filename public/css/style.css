@@ -75,6 +75,19 @@ h4 {
   border-right: 3px solid #3bb;
 }
 
+.chart-promo {
+  height: 30px;
+  font-size: 16px;
+  line-height:1.8em;
+  background-color: #fff;
+  text-align: left;
+  vertical-align: middle;
+  padding: 0 10px;
+  margin: 3px auto;
+  color: #333;
+  border-left: 6px solid #333;
+}
+
 .top-bar {
 	border-top: 1px dotted #666;
 }
@@ -158,6 +171,58 @@ h4 {
     max-width:1024px;
 }
 
+/**
+ *
+ * promo interface
+ * addpromo.html
+ *
+ */
+
+form {
+    width: 50%;
+    padding: 10px 5% 60px 5%;
+    margin: 20px auto 20px auto;
+    background-color: #ddd;
+}
+
+form h4 {
+    text-align: center;
+}
+
+form input, 
+form select {
+    width: 100%;
+}
+
+form input[type=submit] {
+    margin: 40px 0;
+    width: 100%;
+}
+
+form p {
+    margin-top: 30px;
+    font-size: 1.3em;
+    color: #666;
+    
+}
+
+input {
+    height: 40px; 
+    font-size: 20px;
+    
+}
+
+select {   
+    height:40px;
+    font-size:20px;
+}
+
+alert {
+    font-size: 2em;
+    text-align: center;
+}
+    
+
 /* MAX WIDTH 767 */
 
 
@@ -168,14 +233,14 @@ h4 {
     }
     
     .top-sellers .qty {
-        font-size:80px;
+        font-size: 80px;
         padding: 0 10px 0 0;
         margin: 0 10px 0 0;
         border-right: 8px;
-        height:1.6em;
-        width:100%;
-        text-align:left;
-        border-right:none;
+        height: 1.6em;
+        width: 100%;
+        text-align: left;
+        border-right: none;
         border-bottom: 8px solid #ddd;
     }
     
@@ -190,5 +255,11 @@ h4 {
         font-size:12px;
     }
 
+    form {
+        width: 94%;
+    }
+    
+    
+    
 }
     

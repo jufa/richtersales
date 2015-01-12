@@ -1,7 +1,7 @@
 {
   "name": "richter-sales",
   "description": "A demo viz for Shopify demo store activity",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "repository": "https://github.com/jufa/richtersales",
   "logo": "",
   "keywords": ["shopify", "demo"]
 }

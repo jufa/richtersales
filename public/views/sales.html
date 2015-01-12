@@ -5,12 +5,19 @@
 
 <div ng-controller="SalesController">
     <h4>[Query Time: {{queryTime}} ms]</h4>
+    
+    <!-- test of promo recovery -->
+    <ul>
+        <li class = "promos" ng-repeat="promo in promos track by $index">
+            {{promo.name}}, {{promo.platform}}, {{promo.date}}, {{promo.details}}    
+        </li>
+    </ul>
+    
+    
     <div class="chart-container">
         <div class="chart">
-            <div class="labels">
-            </div>
-            <div class="bars">
-            </div> 
+            <div class="labels"></div>
+            <div class="bars"></div> 
         </div>    
     </div>
 </div>

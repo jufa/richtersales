@@ -15,10 +15,15 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             templateUrl: 'views/pulse.html',
             controller: ''
         })
+        .when('/promos', {
+            templateUrl: 'views/promoadd.html',
+            controller: ''
+        })
         .when('/block', {
             templateUrl: 'views/block.html',
             controller: ''
         })
+    
         .otherwise({
             redirectTo: '/'
         });

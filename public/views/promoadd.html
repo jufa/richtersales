@@ -1,0 +1,80 @@
+<div ng-controller = "PromoController">
+    
+    <h3>
+        Add promotion events to your store history to see how they influenced sales activity
+    </h3>
+    
+    <!--
+        promoCtrl is the instantiation of PromoController and variable name for the controller instance in the current scope 
+        http://stackoverflow.com/questions/21287794/angularjs-controller-as-syntax-clarification 
+    -->
+    <form name="promoAddForm" ng-submit="promoFormSubmit()"> 
+        
+        <h4>Congrats on your promo event!</h4>
+        <h4>Let's get the details:</h4>
+        
+        <div class="alert {{alertClass}}" role="alert">{{status}}</div>
+        
+        <p>Let's call it</p>    
+        <input type="text"
+            ng-model="promoName"
+            name="name"
+            placeholder="Promotion Name"
+            required="true"
+            ng-required="true"
+            ng-minlength="3"
+            ng-maxlength="200"
+            ng-change=""
+            ng-trim="true">
+        
+        <p>It was launched on {{promoDateString}}</p>    
+        <input type="text"
+            ng-model="promoDateString"
+            name="date"
+            placeholder="yyyy-MM-dd"   
+            min=""
+            max=""
+            required="true"
+            ng-required="true"
+            ng-change="">
+
+        <p>Through this platform</p>    
+        <select
+            ng-model="promoPlatform"
+            name="platform"
+            required="true"
+            ng-required="true"
+            ng-options="platform.label for platform in platformList">
+        </select>
+        
+        <p>Some other optional details I want to remember</p>    
+        <input type="text"
+            ng-model="promoDetails"
+            name="details"
+            placeholder="Anything you want to remember for later?"
+            required="false"
+            ng-required="false"
+            ng-minlength="3"
+            ng-maxlength="400"
+            ng-change=""
+            ng-trim="true">
+
+        <input type="submit" id="submit" value="Add This Promotion" />
+        
+    </form>
+        
+        
+
+    
+      
+    <!--
+        <div class = "top-sellers" ng-repeat="item in topSellers track by $index">
+        <div class="image"><img src="{{item.image}}"/></div>
+        <div class="caption">
+            <span class = "qty">{{item.quantity}}</span>
+            {{item.name}}
+            <br/> <span class = "product-id">{{item.product_id}}</span>
+        </div>
+    </div>
+    -->
+</div>

@@ -1,1 +1,10 @@
-angular.module('RichtersalesApp', ['ngRoute', 'appRoutes', 'MainController', 'StatsBigSellerController', 'SalesController', 'SalesService', 'ProductService']);
+angular.module('RichtersalesApp', ['ngRoute', 
+                                   'appRoutes',
+                                   'MainController',
+                                   'StatsBigSellerController',
+                                   'SalesController',
+                                   'PromoController',
+                                   'SalesService',
+                                   'ProductService',
+                                   'PromoService'
+]);

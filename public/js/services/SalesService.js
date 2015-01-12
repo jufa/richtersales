@@ -81,11 +81,38 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
             chartData.push({
 				qty: getLineItems(order),
 				date: order.created_at
-			})
+			});
         }
 
         return chartData;
 
+    };
+    
+    /**
+     * 
+     * 
+     *
+     * @returns original chartData object reference with promo data merged and sorted by date
+     *
+     */
+    var mergeChartDataWithPromoData = function(chartData, promoData) {
+        
+        // validate promo dates:
+        for (i = 0; i < promoData.length; i++){
+            if (promoData[i].date === null) {
+                continue;
+            }
+            chartData.push(promoData[i]);
+        }
+        
+        //sort concat chart data:
+        chartData.sort(function(a,b){
+            a = new Date(a.date);
+            b = new Date(b.date);
+            return a>b ? -1 : a<b ? 1 : 0;
+        });
+        
+        return chartData;
     };
     
     
@@ -283,7 +310,7 @@ angular.module('SalesService', []).factory('SalesService', ['$http', '$log', '$q
     
     //Public interface:
     return {     
-        
+        mergeChartDataWithPromoData: mergeChartDataWithPromoData,
         getTopSellers:function(){
             //returns the top 3 sales items.
             //TODO:make 3 n, as in getTopSellers(n);
