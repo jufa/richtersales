@@ -73,6 +73,7 @@ h4 {
   color: white;
   border-left: 3px solid #3bb;
   border-right: 3px solid #3bb;
+  border-radius:15px;
 }
 
 .chart-promo {
@@ -85,8 +86,8 @@ h4 {
   padding: 0 10px;
   margin: 3px auto;
   color: #666;
-  border-left: 3px solid #ddd;
-  border-right: 3px solid #ddd;
+  border-left: 7px solid #ddd;
+  border-right: 7px solid #ddd;
   border-radius:15px;
 }
 
