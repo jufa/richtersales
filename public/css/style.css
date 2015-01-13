@@ -80,14 +80,14 @@ h4 {
   height: 30px;
   font-size: 16px;
   line-height:1.8em;
-  background-color: #fdfdfd;
+  background-color: transparent;
   text-align: center;
   vertical-align: middle;
   padding: 0 10px;
   margin: 3px auto;
   color: #666;
-  border-left: 7px solid #ddd;
-  border-right: 7px solid #ddd;
+  border-left: 7px solid #bbb;
+  border-right: 7px solid #bbb;
   border-radius:15px;
 }
 
