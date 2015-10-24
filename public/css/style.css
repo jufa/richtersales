@@ -1,7 +1,7 @@
 /**
  *
- * App level interface 
- * 
+ * App level interface
+ *
  *
  */
 
@@ -30,7 +30,7 @@ h3 {
   line-height: 1.3em;
   text-align: center;
   display: block;
-  max-width:767px;  
+  max-width:767px;
 }
 
 h4 {
@@ -41,7 +41,7 @@ h4 {
 
 /**
  *
- * richtersals barchart interface 
+ * richtersals barchart interface
  * sales.html
  *
  */
@@ -71,9 +71,9 @@ h4 {
   padding: 0 10px;
   margin: 3px auto;
   color: white;
-  border-left: 3px solid #3bb;
-  border-right: 3px solid #3bb;
-  border-radius:15px;
+  border-left: 0px solid #3bb;
+  border-right: 0px solid #3bb;
+  border-radius:3px;
 }
 
 .chart-promo {
@@ -86,9 +86,9 @@ h4 {
   padding: 0 10px;
   margin: 3px auto;
   color: #666;
-  border-left: 7px solid #bbb;
-  border-right: 7px solid #bbb;
-  border-radius:15px;
+  border-left: 3px solid #bbb;
+  border-right: 3px solid #bbb;
+  border-radius:3px;
 }
 
 .top-bar {
@@ -113,7 +113,7 @@ h4 {
 
 /**
  *
- * Top Sellers interface 
+ * Top Sellers interface
  * pulse.html
  *
  */
@@ -140,7 +140,7 @@ h4 {
     padding:0;
     margin:0;
     line-height:1em;
-    
+
 }
 
 .top-sellers .qty {
@@ -156,7 +156,7 @@ h4 {
     line-height: 0.9em;
     height:300px;
 }
-    
+
 .top-sellers .product-id {
     font-size:20px;
     color:#333;
@@ -164,7 +164,7 @@ h4 {
 
 /**
  *
- * About interface 
+ * About interface
  * block.html
  *
  */
@@ -192,7 +192,7 @@ form h4 {
     text-align: center;
 }
 
-form input, 
+form input,
 form select {
     width: 100%;
 }
@@ -206,16 +206,16 @@ form p {
     margin-top: 30px;
     font-size: 1.3em;
     color: #666;
-    
+
 }
 
 input {
-    height: 40px; 
+    height: 40px;
     font-size: 20px;
-    
+
 }
 
-select {   
+select {
     height:40px;
     font-size:20px;
 }
@@ -224,7 +224,7 @@ select {
     font-size: 2em;
     text-align: center;
 }
-    
+
 
 /* MAX WIDTH 767 */
 
@@ -234,7 +234,7 @@ select {
         width: 40%;
         height:180px;
     }
-    
+
     .top-sellers .qty {
         font-size: 80px;
         padding: 0 10px 0 0;
@@ -246,14 +246,14 @@ select {
         border-right: none;
         border-bottom: 8px solid #ddd;
     }
-    
+
     .top-sellers .caption {
         font-size:20px;
         width:50%;
         height:1em;
         margin-left:10px;
     }
-    
+
     .top-sellers .product-id {
         font-size:12px;
     }
@@ -261,8 +261,7 @@ select {
     form {
         width: 94%;
     }
-    
-    
-    
+
+
+
 }
-    
